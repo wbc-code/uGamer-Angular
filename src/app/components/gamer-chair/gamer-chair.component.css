@@ -1,0 +1,140 @@
+/*********** GAMING-CHAIR ***********/
+section {
+  background: linear-gradient(86.08deg, #ecaa80 0%, #725de5 100%);
+}
+
+.gaming-chair {
+  display: flex;
+  align-items: center;
+  margin-top: 120px;
+}
+
+.gaming-chair img {
+  margin: 0px 10px;
+}
+
+.gaming-chair h1 {
+  font-size: 40px;
+  font-weight: 700;
+}
+
+.gaming-chair .download-text p {
+  font-size: 2rem;
+  font-weight: 700;
+  margin: 30px 0 20px 0;
+  color: var(--black);
+}
+
+.gaming-chair .download-text button {
+  border-radius: 10px;
+  padding: 10px 35px;
+  border: none;
+  color: #fff;
+  font-weight: 700;
+  background-color: #45415a;
+  box-shadow: 4px 9px 8px rgba(0, 0, 0, 0.397);
+}
+
+.gaming-chair .download-text button:hover {
+  background-color: #2ca92b;
+  letter-spacing: 0.5rem;
+  cursor: pointer;
+}
+
+/* Responsividade */
+@media screen and (max-width: 320px) {
+  .gaming-chair {
+    flex-direction: column;
+    padding: 2rem 0;
+  }
+
+  .gaming-chair img {
+    width: 250px;
+  }
+
+  .download-text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .download-text h1,
+  .download-text p {
+    font-size: 2rem;
+    line-height: 2.5rem;
+    text-align: center;
+  }
+}
+
+@media screen and (max-width: 375px) {
+  .gaming-chair {
+    flex-direction: column;
+    padding: 2rem 0;
+  }
+
+  .gaming-chair img {
+    width: 200px;
+  }
+
+  .download-text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .download-text h1,
+  .download-text p {
+    font-size: 2rem;
+    line-height: 2.5rem;
+    text-align: center;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .gaming-chair {
+    flex-direction: column;
+    padding: 2rem 0;
+  }
+
+  .gaming-chair img {
+    width: 200px;
+  }
+
+  .download-text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .download-text h1,
+  .download-text p {
+    font-size: 2rem;
+    line-height: 2.5rem;
+    text-align: center;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .gaming-chair {
+    padding: 2rem 0;
+    margin: 0 auto;
+    justify-content: center;
+  }
+
+  .gaming-chair img {
+    width: 250px;
+  }
+
+  .download-text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .download-text h1,
+  .download-text p {
+    font-size: 2rem;
+    line-height: 2.5rem;
+    text-align: center;
+  }
+}

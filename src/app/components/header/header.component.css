@@ -1,0 +1,153 @@
+/*********** HEADER ***********/
+header {
+  height: 80%;
+}
+
+.cabecalho {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 100%;
+  margin-top: 15px;
+}
+
+.logo img {
+  vertical-align: middle;
+  cursor: pointer;
+  width: 200px;
+}
+
+.menu {
+  width: 600px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.menu a {
+  color: white;
+  text-decoration: none;
+  font-size: 1.6rem;
+  text-transform: capitalize;
+  padding: 0.9em 0.66em;
+}
+
+.menu a:hover {
+  color: #2ba82b;
+  border-bottom: 0.1rem solid #2ba82b;
+  padding-bottom: 0.5rem;
+}
+
+.cabecalho .icons div,
+.cabecalho .icons a {
+  color: #fff;
+  cursor: pointer;
+  font-size: 2.5rem;
+  margin-left: 2rem;
+}
+
+.cabecalho .icons a:hover,
+.cabecalho .icons div:hover {
+  color: #2ba82b;
+}
+
+.search-form {
+  display: none;
+}
+
+#menu-btn {
+  display: none;
+}
+
+/*********** SEÇÃO RESPONSIVIDADE ***********/
+@media screen and (max-width: 320px) {
+  /* header */
+  .cabecalho {
+    flex-wrap: wrap;
+    margin: 10px 20px;
+  }
+
+  .logo img {
+    width: 150px;
+  }
+
+  .menu,
+  .icons .search,
+  .icons .user,
+  .icons #cart-btn {
+    display: none;
+  }
+
+  #menu-btn {
+    display: flex;
+  }
+}
+
+@media screen and (max-width: 375px) {
+  /* header */
+  .cabecalho {
+    flex-wrap: wrap;
+    margin: 10px 20px;
+  }
+
+  .logo img {
+    width: 150px;
+  }
+
+  .menu,
+  .icons .search,
+  .icons .user,
+  .icons #cart-btn {
+    display: none;
+  }
+
+  #menu-btn {
+    display: flex;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  /* header */
+  .cabecalho {
+    flex-wrap: wrap;
+    margin: 10px 20px;
+  }
+
+  .logo img {
+    width: 150px;
+  }
+
+  .menu,
+  .icons .search,
+  .icons .user,
+  .icons #cart-btn {
+    display: none;
+  }
+
+  #menu-btn {
+    display: flex;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  /* header */
+  .cabecalho {
+    flex-wrap: wrap;
+    margin: 10px 20px;
+  }
+
+  .logo img {
+    width: 150px;
+  }
+
+  .menu,
+  .icons .search,
+  .icons .user,
+  .icons #cart-btn {
+    display: none;
+  }
+
+  #menu-btn {
+    display: flex;
+  }
+}

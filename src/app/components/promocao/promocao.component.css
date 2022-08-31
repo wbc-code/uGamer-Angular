@@ -1,0 +1,127 @@
+/*********** PROMOÇAO / about ***********/
+.promocao {
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  margin-top: 50px;
+}
+
+.promocao h1 {
+  color: var(--white);
+  font-size: 40px;
+  font-weight: 700;
+}
+
+.container-promocao {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 40px;
+}
+
+.container-promocao img {
+  width: 140px;
+}
+
+.container-promocao h2 {
+  color: var(--white);
+  font-weight: 700;
+  margin: 15px 0 15px 0;
+  font-size: 2rem;
+}
+
+.container-promocao p {
+  color: #92919d;
+  width: 240px;
+  font-size: 1.5rem;
+  font-weight: 500;
+}
+
+.container-promocao-topics {
+  display: flex;
+}
+
+.container-topics {
+  display: flex;
+  flex-direction: column;
+  margin: 35px;
+  /* height: 225px; */
+  align-items: center;
+  justify-content: center;
+  border: var(--border);
+  border-radius: 25px;
+}
+
+.button-promocao {
+  margin: 15px;
+  border-radius: 10px;
+  padding: 10px 10px;
+  border: none;
+  color: #dddddd;
+  font-weight: 700;
+  background-color: #45415a;
+}
+
+.button-promocao:hover {
+  background-color: #2ca92b;
+  letter-spacing: 0.2rem;
+  cursor: pointer;
+}
+
+/* Responsividade */
+@media screen and (max-width: 320px) {
+  .promocao h1 {
+    font-size: 2.4rem;
+  }
+
+  .container-promocao {
+    flex-direction: column;
+  }
+
+  .container-promocao-topics {
+    flex-direction: column;
+  }
+}
+
+@media screen and (max-width: 375px) {
+  .promocao h1 {
+    font-size: 2.5rem;
+  }
+
+  .container-promocao {
+    flex-direction: column;
+  }
+
+  .container-promocao-topics {
+    flex-direction: column;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .promocao h1 {
+    font-size: 2.5rem;
+  }
+
+  .container-promocao {
+    flex-direction: column;
+  }
+
+  .container-promocao-topics {
+    flex-direction: column;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  /* .promocao h1 {
+    font-size: 3rem;
+  } */
+
+  .container-promocao {
+    /* flex-wrap: wrap; */
+    /* flex-direction: row; */
+  }
+
+  .container-promocao-topics {
+    flex-direction: column;
+  }
+}

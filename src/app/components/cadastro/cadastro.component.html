@@ -1,0 +1,43 @@
+<div class="form">
+  <!-- Sign-up -->
+  <div class="sign-up-form">
+    <!-- cancel-btn -->
+    <a href="#" class="form-cancel">
+      <i class="fa fa-times"></i>
+    </a>
+
+    <!-- heading -->
+    <strong>Cadastre-se em nossa loja</strong>
+    <!-- input -->
+    <form #userForm>
+      <input type="text" placeholder="Nome completo" name="fullname" required />
+      <input
+        type="email"
+        placeholder="Exemplo@gmail.com"
+        name="email"
+        required
+      />
+      <input type="password" placeholder="Senha" name="password" required />
+
+      <input
+        type="password"
+        placeholder="Repita novamente senha"
+        name="password2"
+        required
+      />
+
+      <!-- checkbox-termos -->
+      <div class="termos">
+        <input type="checkbox" id="remember-me" />
+        <label for="remember-me"> aceito os termos </label>
+      </div>
+
+      <!-- submit-btn -->
+      <input type="submit" value="Cadastrar" />
+    </form>
+    <!-- forget-and-sign-up-btn -->
+    <div class="form-btns">
+      <a routerLink="/login" class="already-acount">Já tem conta?</a>
+    </div>
+  </div>
+</div>

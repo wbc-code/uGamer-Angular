@@ -1,0 +1,135 @@
+/*********** NEWSLETTER ***********/
+.newsletter {
+  background-color: #45415a;
+  /* margin: 2rem 7%; */
+  border-radius: 20px;
+  padding: 4rem 1rem;
+  text-align: center;
+}
+
+.newsletter h1 {
+  color: #fff;
+  font-size: 3rem;
+}
+
+.newsletter p {
+  color: var(--black);
+  font-size: 2rem;
+  font-weight: bold;
+  padding: 1rem 0;
+}
+
+.newsletter form {
+  height: 5rem;
+  max-width: 60rem;
+  margin: 0 auto;
+  padding: 0 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-radius: 5rem;
+  background: rgba(0, 0, 0, 0.3);
+}
+
+.newsletter form input[type="email"] {
+  height: 100%;
+  width: 80%;
+  padding: 0 1rem;
+  outline: none;
+  border: none;
+  background: none;
+  font-size: 1.5rem;
+  color: #fff;
+  letter-spacing: 0.1rem;
+}
+
+.newsletter form input[type="submit"] {
+  border-radius: 5rem;
+}
+
+.btn {
+  height: 4rem;
+  width: 14rem;
+  background: #45415a;
+  color: #fff;
+  font-size: 1.5rem;
+  font-weight: 600;
+  border-radius: 5rem;
+  cursor: pointer;
+
+  /* border: none; */
+  /* outline: none; */
+}
+
+.btn:hover {
+  background-color: transparent;
+  border: 2px solid #f9004d;
+  /* background-color: #2ca92b;
+  letter-spacing: 0.2rem;
+  opacity: 0.6; */
+}
+
+/* RESPONSIVIDADE */
+@media screen and (max-width: 320px) {
+  .newsletter {
+    margin: 0 15px;
+    height: 20rem;
+  }
+
+  .newsletter h1 {
+    font-size: 1.5rem;
+  }
+
+  .newsletter p {
+    font-size: 1.5rem;
+  }
+
+  .newsletter form {
+    width: 20rem;
+  }
+}
+
+@media screen and (max-width: 375px) {
+  .newsletter {
+    margin: 0 15px;
+    height: 20rem;
+  }
+
+  .newsletter h1 {
+    font-size: 2.5rem;
+  }
+
+  .newsletter p {
+    font-size: 1.5rem;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .newsletter {
+    margin: 0 15px;
+    height: 20rem;
+  }
+
+  .newsletter h1 {
+    font-size: 2.5rem;
+  }
+
+  .newsletter p {
+    font-size: 1.5rem;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .newsletter {
+    margin: 0 15px;
+    height: 20rem;
+  }
+
+  .newsletter h1 {
+    font-size: 2.5rem;
+  }
+
+  .newsletter p {
+    font-size: 1.5rem;
+  }
+}

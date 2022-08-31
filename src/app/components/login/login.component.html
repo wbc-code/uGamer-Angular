@@ -1,0 +1,47 @@
+<!-- login-and-sign-up-form -->
+<section>
+  <div class="form">
+    <!-- login -->
+    <div class="login-form">
+      <!-- cancel-btn -->
+      <a href="#" class="form-cancel">
+        <i class="fa fa-times"></i>
+      </a>
+
+      <!-- heading -->
+      <strong>Acesse sua conta</strong>
+      <!-- input -->
+      <form #userForm>
+        <input
+          type="email"
+          placeholder="exemplo@gmail.com"
+          id="email"
+          name="email"
+          [ngModel]=""
+        />
+        <input
+          type="password"
+          placeholder="senha"
+          id="password"
+          name="password"
+          [ngModel]=""
+        />
+
+        <!-- checkbok-remember -->
+        <div class="remember">
+          <input type="checkbox" name="" id="remember-me" />
+          <label for="remember-me"> lembrar-me </label>
+        </div>
+
+        <!-- submit-btn -->
+        <input type="submit" value="Entrar" />
+      </form>
+
+      <!-- forget-and-sign-up-btn -->
+      <div class="form-btns">
+        <a href="#" class="forget">Esqueceu sua senha?</a>
+        <a routerLink="../cadastro" href="#" class="sign-up-btn">Criar conta</a>
+      </div>
+    </div>
+  </div>
+</section>
